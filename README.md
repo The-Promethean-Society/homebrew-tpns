@@ -1,0 +1,40 @@
+# 🗺️ Homebrew TPNS (The Promethean Society)
+
+Sovereign developer tooling for the **Promethean Network State**.
+
+## Installation
+
+```bash
+brew tap The-Promethean-Society/tpns
+brew install cartographer
+```
+
+## Tools
+
+### 📍 Cartographer
+The **Cartographer** is the machine-to-machine (M2M) synthesis engine for the **Shadow Protocol**. It allows you to generate semantic HTML snapshots of dynamic application states, optimized for LLMs and autonomous agents.
+
+#### CLI Usage
+Generate a shadow state snapshot of any URL:
+```bash
+cartographer --url <URL> [--output <FILENAME>]
+```
+
+#### Library Usage
+Integrate the synthesis logic into your own Node.js/TypeScript services:
+
+```typescript
+import { cartographer } from '@promethea/cartographer';
+
+const shadowHTML = cartographer.synthesize({
+    title: "Sovereign Dashboard",
+    description: "Machine-readable state of the node.",
+    urlPath: "/dashboard"
+});
+```
+
+## Contributing
+The Promethean Society is an open, sovereign collective. Pull requests to this Tap are encouraged.
+
+## License
+MIT
