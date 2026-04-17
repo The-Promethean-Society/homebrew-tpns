@@ -1,3 +1,5 @@
+require "language/node"
+
 class Cartographer < Formula
   desc "Sovereign Machine-to-Machine (M2M) synthesis engine for the Shadow Protocol"
   homepage "https://lvhllc.org"
