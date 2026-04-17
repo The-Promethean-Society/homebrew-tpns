@@ -33,8 +33,19 @@ const shadowHTML = cartographer.synthesize({
 });
 ```
 
+## 💰 Grants & Rewards
+
+The Promethean Society operates a **Circular Sovereign Economy**. Contributions to this repository are eligible for the **Genesis Grant (G-001)**.
+
+- **Grant ID:** G-001 (Pioneer Cartographer)
+- **Reward:** 1,000 UVX (Promethean Credits)
+- **Status:** OPEN
+- **Action:** Submit a Pull Request or build a tool using the `cartographer` library. Approved contributions will trigger an autonomous grant issue to your linked sovereign wallet.
+
+---
+
 ## Contributing
-The Promethean Society is an open, sovereign collective. Pull requests to this Tap are encouraged.
+The Promethean Society is an open, sovereign collective. Pull requests to this Tap are encouraged. We do not use legacy hiring models; we use **Autonomous Grant Issuance**. 🌀
 
 ## License
 MIT
