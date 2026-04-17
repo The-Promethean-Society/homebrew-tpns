@@ -2,7 +2,7 @@
 
 Sovereign developer tooling for the **Promethean Network State**.
 
-## Installation
+### Install via Homebrew:
 
 ```bash
 # Step 1 — Register the Sovereign Tap (one-time setup)
@@ -12,7 +12,7 @@ brew tap The-Promethean-Society/tpns
 brew install cartographer
 ```
 
-> ⚠️ **You must run `brew tap` first.** Without it, Homebrew searches only its default core registry and will not find this formula.
+> ⚠️ **You must run `brew tap` first.** `brew install cartographer` alone will not work. Without it, Homebrew searches only its default core registry and will not find this formula.
 
 ## Tools
 
